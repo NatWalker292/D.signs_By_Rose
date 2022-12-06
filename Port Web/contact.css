@@ -1,0 +1,71 @@
+.home{
+    font-family: sirenia, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 35px;
+    color: #933538;
+    float: right;
+    margin-top: -175px;
+    padding-right: 3115px;
+}
+
+fieldset{
+    padding: 20px;
+    margin: 20px;
+    border: none;
+  }
+  
+  input[type="email"], input[type="full name"], input[type="your message"]{
+    display: block;
+    margin-bottom: 20px;
+    background: #EFA4A6;
+    border: none;
+    padding: 10px 180px 10px 30px;
+    width: 300px;
+    height: 50px;
+  }
+  
+  input::placeholder{
+    color: #933538;
+    font-family: auster, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+  }
+
+  input[type="email"]:valid, input[type="full name"]:valid{
+    color: #933538;
+  }
+
+ input:focus{
+    outline: none;
+ } 
+
+ #social{
+    float:none;
+ }
+
+ .contact-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+
+  .contact-info{
+    text-align: center;
+  }
+
+  .email{
+    color: #933538;
+    font-family: auster, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+  }
+
+  .icon{
+    width: 75px;
+    height: 75px;
+  }

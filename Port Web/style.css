@@ -1,0 +1,116 @@
+html, body {
+    background-image:url(HomeBackGround.png);
+     background-size: 1700px;
+     background-repeat: no-repeat;
+     background-position: top center;
+     background-attachment:fixed;
+   }
+
+   .title{
+    font-family: sirenia, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+    color:  #933538;
+    padding-left: 30px;
+    display: inline-block;
+   }
+
+   .sub-title{
+    font-family: sirenia, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 35px;
+    color: #933538;
+    margin-top: -75px;
+   }
+
+   ul{
+    list-style:none;
+    position: relative;
+    float: right;
+    padding-top: 90px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+   ul li a{
+    text-decoration: none;
+    color:#933538;
+  }
+
+  ul li{
+    display: inline-block;
+  }
+
+   .icon{
+    font-size: 40px;
+    padding: 5px;
+    border-radius: 100px;
+  }
+
+   .image-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+
+.hexagon{
+  position: relative;
+}
+
+  .image-grid-titles{
+    font-family: sirenia, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 35px;
+    color: #F5DC89;
+    position: absolute;
+    margin: auto;
+    top: 213px;
+    left: 175px;
+  }
+
+  #port-title{
+    padding-left: 45px;
+  }
+
+  #contact-title{
+    padding-left: 55px;
+  }
+
+  .hexagon{
+    transition: transform 2s;
+  }
+  
+  .hexagon:hover{
+    transform: translate(0px,-100px);
+  }
+
+  .image-grid-titles:hover{
+    color: #EFA4A6;
+  }
+
+  .icon:hover{
+    color: #F5DC89;
+  }
+
+  @media screen and (max-wdith: 1025px){
+    .image-grid{
+      grid-template-columns: 1fr 1fr;
+    }
+    .hexagon{
+      float: none;
+    }
+  }
+
+  @media screen and (max-width: 500px){
+    .image-grid{
+      grid-template-columns: 1fr;
+    }
+    .hexagon{
+      float: none;
+    }
+  }

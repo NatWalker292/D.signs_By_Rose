@@ -1,0 +1,63 @@
+.home{
+    font-family: sirenia, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 35px;
+    color: #933538;
+    float: right;
+    margin-top: -175px;
+    padding-right: 115px;
+}
+
+.image-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    position: relative;
+  }
+
+.headshot{
+    padding-left: 125px;
+}
+
+.ArtistStatement{
+    float: left;
+    padding-right: 200px;
+    font-family: auster, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    color: #933538;
+}
+
+.resume{
+    padding-left: 200px;
+}
+
+@media screen and (max-width: 1025px){
+    .image-grid{
+        grid-template-columns: 1fr;
+    }
+
+}
+
+@media screen and (max-width: 500px){
+    .headshot{
+        padding-left: 50px;
+    }
+    .home{
+        float: none;
+        margin-top: -50px;
+        border-bottom: none;
+        padding-left: 30px;
+      }
+      .ArtistStatement{
+        padding-left: 50px;
+        padding-right: 0px;
+      }
+      .resume{
+        padding-left: 50px;
+      }
+}
